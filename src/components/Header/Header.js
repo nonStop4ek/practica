@@ -20,7 +20,7 @@ const Header = () => {
         <CssBaseline />
         <main>
         <div className={css.Header}>
-       <Button variant="contained"     onClick={()=>navigate('todos')} >Todos</Button>
+       <Button variant="contained"     onClick={()=>navigate('todos')} >Main</Button>
             <Button variant="contained" onClick={()=>navigate('albums')}>Albums</Button>
             <Button variant="contained" onClick={()=>navigate('comments')}>Comments</Button>
         </div></main>
